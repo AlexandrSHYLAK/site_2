@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="nav">
+        <a href="#" class="logo">LOGO</a>
+        <ul class="menu">
+          <li class="menu-li"><a href="./index.html" class="link">Main</a></li>
+          <li class="menu-li"><a href="./news.html" class="link">News</a></li>
+          <li class="menu-li"><a href="./catalog.html" class="link">Catalog</a></li>
+          <li class="menu-li"><a href="./report.html" class="link">Report</a></li>
+          <li class="menu-li"><a href="./contact.html" class="link">Contact us</a></li>
+        </ul>
+      </nav>
+    <form action="/go-to-server" class="form" method="POST">
+        <fieldset>
+        <legend class="legend">Ведите личные данные</legend>
+        <div>
+            <div class="display">
+                <label for="fio">Имя</label>
+                <input id="name" type="text" placeholder="Ivan">
+            </div>
+            <div class="display">
+                <label for="fio">Фамилия</label>
+                <input id="surname" type="text" placeholder="Ivanov">
+            </div>
+            <div class="display">
+                <label for="mail">Email</label>
+                <input id="email" type="text" placeholder="email">
+            </div>
+            <div class="display">
+                <label for="phon">Телефон</label>
+                <input id="phon" type="number" placeholder="+375(29)1234567">  
+            </div>
+        </div>
+            <div>
+                <textarea placeholder="Message" ></textarea>
+            </div>
+        <div class="button">
+            <button type="submit">Send Data</button>  
+        </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
