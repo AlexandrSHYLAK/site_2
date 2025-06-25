@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+    padding: 0;
+
+}
+.nav{
+  padding: 0 50px;
+  height: 100px;
+  background-color: rgb(6, 39, 99);
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: rgb(52, 179, 253);
+  font-size: 40px;
+  text-decoration: none;
+}
+.link{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+.link:hover{
+  color: rgb(114, 173, 240);
+}
+
+.menu{
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*navigation*/
+body{
+  /*background-color: rgb(180, 209, 243);*/
+  background-color: #15638F;
+  
+}
+
+.block{
+  margin: 50px auto; /*размещаем блок по центру страницы*/
+  padding: 20px;
+  background: rgb(114, 173, 240);
+  width: 70%;
+  display: flex;
+  align-items: center; /*внутри блока по вертикали размещаем элементы по центру*/
+}
+.text{
+  margin-left: 30px; /*отодвигаем текст от картинки*/
+}
+img{
+  width: 300px; /*меняем размер картинки*/
+}
