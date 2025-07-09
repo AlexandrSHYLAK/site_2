@@ -1,17 +1,15 @@
 const array = [3, 6, 1, 12, 52, 31, 9, 4, 7, 42]
 
+//let revers = false
 
-
-/*let revers = True
-
-function bubbleSort(arr, revers){
+function bubbleSort(arr, revers = false){
   const arrayCopy = [...arr];
-  if (revers === True) {
-    bubbleSortDescending(arrayCopy)
+  if (revers === true) {
+    return bubbleSortDescending(arrayCopy)
   }else {
-    bubbleSortIncrease(arrayCopy)
+    return bubbleSortIncrease(arrayCopy)
   }
-}*/
+}
 
 
 
@@ -47,5 +45,5 @@ function bubbleSortDescending(arr) {
 
 console.log(bubbleSortDescending(array));
 console.log(bubbleSortIncrease(array));
-/*console.log(bubbleSort(array, revers))
-console.log(bubbleSort(array, revers))*/
+console.log(bubbleSort(array, true));
+console.log(bubbleSort(array));
